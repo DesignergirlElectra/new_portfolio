@@ -80,6 +80,7 @@
 
 .hero-banner {
     position: relative;
+    background: linear-gradient(90deg, rgba(252, 222, 228, 1) 0%, rgba(250, 250, 247, 1) 100%);
 }
 /* my skill  */
 
