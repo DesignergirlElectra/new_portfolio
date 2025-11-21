@@ -249,22 +249,25 @@
 }
 
 .css .web-progress::after {
-    width: 70%;
+    width: 80%;
 }
 
 .bootstrap .web-progress::after {
-    width: 50%;
+    width: 70%;
 }
 
 .java .web-progress::after {
-    width: 40%;
+    width: 70%;
 }
 
 .photo .web-progress::after {
     width: 80%;
 }
+.bootstrap .web-progress::after {
+    width: 70%;
+}
 
-.sass .web-progress::after {
+.react .web-progress::after {
     width: 60%;
 }
 
