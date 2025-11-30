@@ -1,432 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+        <link rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
 
-<body>
-    <div class="main-header">
-        <div class="container">
-            <div class="header-wrap">
-                <div class="logo">N<span>i</span></div>
-                <div class="menu desktop-menu">
-                    <ul>
-                        <li class="menu-active"><a href="#">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#project">My Projects</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="mobile-menu">
-                    <div class="menu-m btn11" data-menu="11">
-                        <div class="icon-left"></div>
-                        <div class="icon-right"></div>
-                    </div>
-                    <div class="m-menu">
-                        <ul>
-                            <li class="menu-active"><a href="#">Portfolio</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#project">My Projects</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="right-menu">
-                    <div class="call"><a href="tel:8595094834"><span><i class="fa-solid fa-phone"></i></span>
-                        <span class = "schedule">Schdeuale
-                            Call</span></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- banner starts here  -->
-
-    <div class="hero-banner" id = "about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12">
-                    <div class="hero-w">
-                        <div class="hero-wrap">
-                            <div class="hero">
-                                <div class="sml-txt">Hi There,</div>
-                                <div class="big-txt">I am N<span>i</span>sha</div>
-                                <div class="">
-                                    <h1>Where imagination meets creativity.</h1>
-                                </div>
-                                <h5>You have a vision and we have the skills to make it happen!</h5>
-                                <div class="hero-btn">
-                                    <div class="hire"><a href="#"><span><i class="fa-brands fa-hive"></i></span>Hire
-                                            Me</a></div>
-                                    <div class="hire"><a href="#my-study"><span><i
-                                                    class="fa-solid fa-list-check"></i></span>My Design</a></div>
-                                </div>
-                            </div>
-                            <div class="cont">
-                                <div class="btm-cont">
-                                    <div class="mail">
-                                        <h5>Email</h5>
-                                        <p>ns8143385@gmail.com</p>
-                                    </div>
-                                    <div class="mail cont-mail">
-                                        <h5>Contact</h5>
-                                        <p>+91-8595094834</p>
-                                    </div>
-                                    <div class="mail">
-                                        <h5>Location</h5>
-                                        <p>Delhi</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <div class="banner-img">
-                        <img src="img/banner-img.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- banner ends here  -->
-
-    <!-- my skill set section starts  -->
-    <section class="project">
-        <div class="container">
-            <div class="main-project">
-
-                <p>My skills</p>
-                <h3>As a designer I am constantly improving my skillset, some of my Hands on skills are :</h3>
-
-                <!-- main  -->
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <div class="skill-img"><img src="img/project-img.png"></div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="skill-left">
-                            <div class="skill-design">
-                                <div class="skill-web">
-                                    <div class="web">HTML/HTML5</div>
-                                    <div class="web-progress " id="logo"></div>
-                                </div>
-                                <div class="skill-web css">
-                                    <div class="web">CSS/CSS3</div>
-                                    <div class="web-progress "></div>
-                                </div>
-                                <div class="skill-web bootstrap">
-                                    <div class="web">Bootstrap 3, 4, 5</div>
-                                    <div class="web-progress "></div>
-                                </div>
-                                <div class="skill-web java">
-                                    <div class="web">Javascript /jquery</div>
-                                    <div class="web-progress "></div>
-                                </div>
-                                 <div class="skill-web react">
-                                    <div class="web">React.js</div>
-                                    <div class="web-progress "></div>
-                                </div>
-                                <div class="skill-web sass">
-                                    <div class="web">SASS</div>
-                                    <div class="web-progress"></div>
-                                </div>
-                                <div class="skill-web photo">
-                                    <div class="web">Photoshop</div>
-                                    <div class="web-progress "></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- my case study start -->
-    <section class="mystudy" id="project">
-        <div class="container">
-            <div class="study-head1">
-                <div class="study-heading-left">
-                    <div class="work">Latest Work</div>
-                    <div class="study-text">My Case Study</div>
-                </div>
-                <div class="study-right">
-                    <a href="#my-study">All case Study</a>
-                </div>
-            </div>
-            <div class="row study-gap">
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
-                        <a href="https://upniva.com/" target="_blank">
-                            <div class="study-img"><img src="img/upniva.png"></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
-                        <a href="https://designergirlelectra.github.io/Reality.SK/" target="_blank">
-                            <div class="study-img"><img src="img/reality.sk.png"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
-                        <a href="https://hunarmandindia.com/" target="_blank">
-                            <div class="study-img"><img src="img/hunarmand.png"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
-                        <a href="https://partners.referloan.in/login/" target="_blank">
-                            <div class="study-img"><img src="img/partners.png"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/2.jpg"></div> -->
-                        <a href="https://www.upes.ac.in/">
-                            <div class="study-img"><img src="img/upse.png"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img box-bookferri"><img src="img/1.jpg"></div> -->
-                        <a href="https://designergirlelectra.github.io/ReplicastartUp/">
-                            <div class="study-img"><img src="img/startup.jpg"></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img box-bookferri"><img src="img/3.jpg"></div> -->
-                        <a href="">
-                            <div class="study-img"><img src="img/bookferri.png"></div>
-                        </a>
-                    </div>
-                </div>
-
-     
-                <div class="col-md-6">
-                    <div class="study-part-1">
-                        <!-- <div class="box-img"><img src="img/3.jpg"></div> -->
-                        <a href="">
-                            <div class="study-img"><img src="img/make-up.jpg"></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="study-part-1 ">
-                        <!-- <div class="box-img box-bookferri"><img src="img/1.jpg"></div> -->
-                        <a href="https://designergirlelectra.github.io/dashboard/">
-                            <div class="study-img "><img src="img/dashboard.png"></div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- my case study ends  -->
-    <section class="my-project-work"id="services">
-        <div class="container">
-            <div class="container-wrap">
-                <div class="main-project">
-                    <p>My Services</p>
-                    <h3>It's not about your business, It's about the impressions you create...</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-12">
-                        <div class="pro-car-wrap">
-                            <div class="pro-car">
-                                Genres I have worked in....
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-12">
-                        <div class="card-row">
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon1.png"></div>
-                                <h5>Education Service</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon2.png"></div>
-                                <h5>E-commerce Design</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon3.png"></div>
-                                <h5>Portfolio Design</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon4.png"></div>
-                                <h5>Tour & Travel Service</h5>
-                            </div>
-                        </div>
-                        <div class="card-row">
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon1.png"></div>
-                                <h5>Restaurant Service</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon2.png"></div>
-                                <h5>Social Ad Banner</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon3.png"></div>
-                                <h5>Banner Design</h5>
-                            </div>
-                            <div class="first-card">
-                                <div class="card-icon"><img src="img/icon4.png"></div>
-                                <h5>PSD to HTML</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- my skill set section ends  -->
-    <!-- banner case study -->
-
-
-    <!-- banner case study ends -->
-    <!-- contct form  -->
-
-    <section class="contact-wrp"id="contact">
-        <div class="container">
-            <div class="row contact-row">
-                <div class="col-lg-6 col-12 paddingForcol">
-                    <div class="con-outer-wrap">
-                        <!-- <div class="con-img"><img src = "img/contact.png"></div> -->
-                        <h2>Ready to start a conversation?</h2>
-                        <p>Reach out and let's create something amazing together!</p>
-                        <div class="left-cont">
-                            <div class="left-first">
-                                <div class="phone mb-3"><a href="#"><span><i
-                                                class="fa-solid fa-phone"></i></span>+91-8595094834</a></div>
-                                <div class="phone email"><a href="mailto://ns8143385@gmail.com"><span><i
-                                                class="fa-solid fa-envelope"></i></span>ns8143385@gmail.com</a></div>
-                            </div>
-                            <div class="left-first">
-                                <div class="phone mb-3"><a href="https://linkedin.com/in/nisha-684524204"><span><i
-                                                class="fa-brands fa-linkedin"></i></span>linkedIn</a></div>
-                                <div class="phone skype"><a href="https://join.skype.com/invite/xs3XniL5ANYz"><span><i
-                                                class="fa-brands fa-skype"></i></span>Skype</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <div class="form-cont">
-                        <form>
-                            <h1>Get in Touch</h1>
-                            <div class="first-row">
-                                <div class="form-group mb-2">
-                                    <div class="form__group field">
-                                        <input type="input" class="form__field" placeholder="Name" name="name" id='name'
-                                            required />
-                                        <label for="name" class="form__label">Name</label>
-                                    </div>
-                                </div>
-                                <div class="form-group mb-2">
-                                    <div class="form__group field">
-                                        <input type="input" class="form__field" placeholder="Email" name="email"
-                                            id='email' required />
-                                        <label for="email" class="form__label">Email</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mb-2">
-                                <div class="form__group field">
-                                    <input type="input" class="form__field" placeholder="phone" name="phone" id='phone'
-                                        required />
-                                    <label for="phone" class="form__label">Phone Number </label>
-                                </div>
-                            </div>
-                            <div class="form-group mb-2">
-                                <div class="form__group field">
-                                    <textarea class="form__field" placeholder="Message" name="msg" id='msg'
-                                        required></textarea>
-                                    <label for="msg" class="form__label">Messages</label>
-                                </div>
-                            </div>
-                            <div class="sub-btn mt-3">
-                                <button type="submit"><span><i class="fa-solid fa-phone"></i></span>Contact Us</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-wrap">
-                <div class="footer-row">
+    <body>
+        <div class="main-header">
+            <div class="container">
+                <div class="header-wrap">
                     <div class="logo">N<span>i</span></div>
-
-                    <div class="footer-r menu">
+                    <div class="menu desktop-menu">
                         <ul>
-                            <li class="menu-active"><a href="#">Portfolio</a></li>
+                            <li class="menu-active"><a
+                                    href="#">Portfolio</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#project">My Projects</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="social-link">
-                    <!-- <div class="social-title">Contact us :</div> -->
-                    <div class="social-link-wrap">
-                        <ul>
-                            <li><a href="mailto://ns8143385@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="ns8143385@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-                            <li><a href="https://linkedin.com/in/nisha-684524204" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="nisha-684524204"><i
-                                        class="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href="https://join.skype.com/invite/xs3XniL5ANYz" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="Nisha (Web Designer)"><i
-                                        class="fa-brands fa-skype"></i></a></li>
-                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="top" title="+91-8595094834"><i
-                                        class="fa-solid fa-phone"></i></a></li>
-                        </ul>
+
+                    <div class="mobile-menu">
+                        <div class="menu-m btn11" data-menu="11">
+                            <div class="icon-left"></div>
+                            <div class="icon-right"></div>
+                        </div>
+                        <div class="m-menu">
+                            <ul>
+                                <li class="menu-active"><a
+                                        href="#">Portfolio</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#project">My Projects</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="right-menu">
+                        <div class="call"><a href="tel:8595094834"><span><i
+                                        class="fa-solid fa-phone"></i></span>
+                                <span class="schedule">Schdeuale
+                                    Call</span></a></div>
                     </div>
                 </div>
             </div>
-            <div class="des">
-                <a href="">Design with Cool thinking</a>
-                <a href="#">Redefining Business ideas</a>
+        </div>
+        <!-- banner starts here  -->
+
+        <div class="hero-banner" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="hero-w">
+                            <div class="hero-wrap">
+                                <div class="hero">
+                                    <!-- <div class="sml-txt">Hi There,</div>
+                                    <div class="big-txt">I am
+                                        N<span>i</span>sha</div> -->
+                                    <div class="big-txt" data-aos="fade-right"
+                                        data-aos-duration="1200">
+                                        I am N<span
+                                            class="highlight">i</span>sha
+                                    </div>
+                                    <div class>
+                                        <h1>Where imagination meets
+                                            creativity.</h1>
+                                    </div>
+                                    <h5>You have a vision and we have the skills
+                                        to make it happen!</h5>
+                                    <div class="hero-btn">
+                                        <div class="hire"><a href="#"><span><i
+                                                        class="fa-brands fa-hive"></i></span>Hire
+                                                Me</a></div>
+                                        <div class="hire"><a
+                                                href="#my-study"><span><i
+                                                        class="fa-solid fa-list-check"></i></span>My
+                                                Design</a></div>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <div class="btm-cont">
+                                        <div class="mail">
+                                            <h5>Email</h5>
+                                            <p>ns8143385@gmail.com</p>
+                                        </div>
+                                        <div class="mail cont-mail">
+                                            <h5>Contact</h5>
+                                            <p>+91-8595094834</p>
+                                        </div>
+                                        <div class="mail">
+                                            <h5>Location</h5>
+                                            <p>Delhi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="banner-img">
+                            <img src="img/banner-img.png">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="copyright">
-            &#169; copyright @ Nisha-The designer
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
+
+        <!-- banner ends here  -->
+
+        <!-- my skill set section starts  -->
+        <section class="project " data-aos="fade-right">
+            <div class="container">
+                <div class="main-project">
+
+                    <p>My skills</p>
+                    <h3>As a designer I am constantly improving my skillset,
+                        some of my Hands on skills are :</h3>
+
+                    <!-- main  -->
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="skill-img"><img
+                                    src="img/project-img.png"></div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="skill-left">
+                                <div class="skill-design">
+                                    <div class="skill-web">
+                                        <div class="web">HTML/HTML5</div>
+                                        <div class="web-progress "
+                                            id="logo"></div>
+                                    </div>
+                                    <div class="skill-web css">
+                                        <div class="web">CSS/CSS3</div>
+                                        <div class="web-progress "></div>
+                                    </div>
+                                    <div class="skill-web bootstrap">
+                                        <div class="web">Bootstrap 3, 4, 5</div>
+                                        <div class="web-progress "></div>
+                                    </div>
+                                    <div class="skill-web java">
+                                        <div class="web">Javascript
+                                            /jquery</div>
+                                        <div class="web-progress "></div>
+                                    </div>
+                                    <div class="skill-web react">
+                                        <div class="web">React.js</div>
+                                        <div class="web-progress "></div>
+                                    </div>
+                                    <div class="skill-web sass">
+                                        <div class="web">SASS</div>
+                                        <div class="web-progress"></div>
+                                    </div>
+                                    <div class="skill-web photo">
+                                        <div class="web">Photoshop</div>
+                                        <div class="web-progress "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- my case study start -->
+        <section class="mystudy" id="project">
+            <div class="container">
+                <div class="study-head1">
+                    <div class="study-heading-left">
+                        <div class="work">Latest Work</div>
+                        <div class="study-text">My Case Study</div>
+                    </div>
+                    <div class="study-right">
+                        <a href="#my-study">All case Study</a>
+                    </div>
+                </div>
+                <div class="row study-gap">
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
+                            <a href="https://upniva.com/" target="_blank">
+                                <div class="study-img"><img
+                                        src="img/upniva.png"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
+                            <a
+                                href="https://designergirlelectra.github.io/Reality.SK/"
+                                target="_blank">
+                                <div class="study-img"><img
+                                        src="img/reality.sk.png"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
+                            <a href="https://hunarmandindia.com/"
+                                target="_blank">
+                                <div class="study-img"><img
+                                        src="img/hunarmand.png"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/study-img-chnge.png"></div> -->
+                            <a href="https://partners.referloan.in/login/"
+                                target="_blank">
+                                <div class="study-img"><img
+                                        src="img/partners.png"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/2.jpg"></div> -->
+                            <a href="https://www.upes.ac.in/">
+                                <div class="study-img"><img
+                                        src="img/upse.png"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img box-bookferri"><img src="img/1.jpg"></div> -->
+                            <a
+                                href="https://designergirlelectra.github.io/ReplicastartUp/">
+                                <div class="study-img"><img
+                                        src="img/startup.jpg"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img box-bookferri"><img src="img/3.jpg"></div> -->
+                            <a href>
+                                <div class="study-img"><img
+                                        src="img/bookferri.png"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="study-part-1">
+                            <!-- <div class="box-img"><img src="img/3.jpg"></div> -->
+                            <a href>
+                                <div class="study-img"><img
+                                        src="img/make-up.jpg"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="study-part-1 ">
+                            <!-- <div class="box-img box-bookferri"><img src="img/1.jpg"></div> -->
+                            <a
+                                href="https://designergirlelectra.github.io/dashboard/">
+                                <div class="study-img "><img
+                                        src="img/dashboard.png"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- my case study ends  -->
+        <section class="my-project-work" id="services" data-aos="fade-left">
+            <div class="container">
+                <div class="container-wrap">
+                    <div class="main-project">
+                        <p>My Services</p>
+                        <h3>It's not about your business, It's about the
+                            impressions you create...</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="pro-car-wrap">
+                                <div class="pro-car">
+                                    Genres I have worked in....
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <div class="card-row">
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon1.png"></div>
+                                    <h5>Education Service</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon2.png"></div>
+                                    <h5>E-commerce Design</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon3.png"></div>
+                                    <h5>Portfolio Design</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon4.png"></div>
+                                    <h5>Tour & Travel Service</h5>
+                                </div>
+                            </div>
+                            <div class="card-row">
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon1.png"></div>
+                                    <h5>Restaurant Service</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon2.png"></div>
+                                    <h5>Social Ad Banner</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon3.png"></div>
+                                    <h5>Banner Design</h5>
+                                </div>
+                                <div class="first-card">
+                                    <div class="card-icon"><img
+                                            src="img/icon4.png"></div>
+                                    <h5>PSD to HTML</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- my skill set section ends  -->
+
+        <!-- contct form  -->
+
+        <section class="contact-wrp" id="contact" data-aos="flip-left">
+            <div class="container">
+                <div class="row contact-row">
+                    <div class="col-lg-6 col-12 paddingForcol">
+                        <div class="con-outer-wrap">
+                            <!-- <div class="con-img"><img src = "img/contact.png"></div> -->
+                            <h2>Ready to start a conversation?</h2>
+                            <p>Reach out and let's create something amazing
+                                together!</p>
+                            <div class="left-cont">
+                                <div class="left-first">
+                                    <div class="phone mb-3"><a href="#"><span><i
+                                                    class="fa-solid fa-phone"></i></span>+91-8595094834</a></div>
+                                    <div class="phone email"><a
+                                            href="mailto://ns8143385@gmail.com"><span><i
+                                                    class="fa-solid fa-envelope"></i></span>ns8143385@gmail.com</a></div>
+                                </div>
+                                <div class="left-first">
+                                    <div class="phone mb-3"><a
+                                            href="https://linkedin.com/in/nisha-684524204"><span><i
+                                                    class="fa-brands fa-linkedin"></i></span>linkedIn</a></div>
+                                    <div class="phone skype"><a
+                                            href="https://join.skype.com/invite/xs3XniL5ANYz"><span><i
+                                                    class="fa-brands fa-skype"></i></span>Skype</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="form-cont">
+                            <form>
+                                <h1>Get in Touch</h1>
+                                <div class="first-row">
+                                    <div class="form-group mb-2">
+                                        <div class="form__group field">
+                                            <input type="input"
+                                                class="form__field"
+                                                placeholder="Name" name="name"
+                                                id='name'
+                                                required />
+                                            <label for="name"
+                                                class="form__label">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <div class="form__group field">
+                                            <input type="input"
+                                                class="form__field"
+                                                placeholder="Email" name="email"
+                                                id='email' required />
+                                            <label for="email"
+                                                class="form__label">Email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <div class="form__group field">
+                                        <input type="input" class="form__field"
+                                            placeholder="phone" name="phone"
+                                            id='phone'
+                                            required />
+                                        <label for="phone"
+                                            class="form__label">Phone Number
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <div class="form__group field">
+                                        <textarea class="form__field"
+                                            placeholder="Message" name="msg"
+                                            id='msg'
+                                            required></textarea>
+                                        <label for="msg"
+                                            class="form__label">Messages</label>
+                                    </div>
+                                </div>
+                                <div class="sub-btn mt-3">
+                                    <button type="submit"><span><i
+                                                class="fa-solid fa-phone"></i></span>Contact
+                                        Us</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrap">
+                    <div class="footer-row">
+                        <div class="logo">N<span>i</span></div>
+
+                        <div class="footer-r menu">
+                            <ul>
+                                <li class="menu-active"><a
+                                        href="#">Portfolio</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#project">My Projects</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-link">
+                        <!-- <div class="social-title">Contact us :</div> -->
+                        <div class="social-link-wrap">
+                            <ul>
+                                <li><a href="mailto://ns8143385@gmail.com"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="top"
+                                        title="ns8143385@gmail.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                                <li><a
+                                        href="https://linkedin.com/in/nisha-684524204"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="top"
+                                        title="nisha-684524204"><i
+                                            class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a
+                                        href="https://join.skype.com/invite/xs3XniL5ANYz"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="top"
+                                        title="Nisha (Web Designer)"><i
+                                            class="fa-brands fa-skype"></i></a></li>
+                                <li><a href data-bs-toggle="tooltip"
+                                        data-bs-placement="top"
+                                        title="+91-8595094834"><i
+                                            class="fa-solid fa-phone"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="des">
+                    <a href>Design with Cool thinking</a>
+                    <a href="#">Redefining Business ideas</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &#169; copyright @ Nisha-The designer
+            </div>
+        </footer>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
 
         $('.menu-m').click(function () {
             $(this).toggleClass('open');
@@ -442,7 +520,11 @@
             $('.m-menu').removeClass('active');
         });
 
+        AOS.init({
+            duration: 1000, // Animation duration in ms
+        });
+
     </script>
-</body>
+    </body>
 
 </html>

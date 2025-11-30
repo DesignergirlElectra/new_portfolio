@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body, html{
+  overflow-x:hidden;
+}
 .main-header {
     padding: 10px 0;
 }
@@ -377,10 +379,10 @@
 }
 .study-img {
     position: relative;
-    width: 95%;
+    width: 98%;
     box-shadow: 0px 0px 15px grey;
     overflow: hidden;
-    margin: 2rem 0;
+    margin: 20px 0;
 }
 
 .study-img:after {
@@ -1168,4 +1170,36 @@ footer {
 .footer-wrap {
     justify-content: space-between;
 }
+}
+
+.big-txt {
+  display: inline-block;
+  opacity: 0;
+  animation: slideIn 1.5s ease forwards;
+}
+
+.highlight {
+  color: #ff4c29;
+  display: inline-block;
+  animation: bounce 1.3s infinite alternate ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-6px);
+  }
 }
